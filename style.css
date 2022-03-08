@@ -53,7 +53,7 @@ body {
   list-style: none;
   text-transform: uppercase;
   flex-direction: column;
-  background-color: black;
+  background-color: #3764a7;
 }
 .menu__show {
   display: flex;
@@ -143,6 +143,26 @@ body {
 
 /* media */
 @media (min-width: 768px) {
+  .menu__toggle {
+    display: none;
+  }
+  .menu {
+    margin: 0;
+    padding: 0;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+    background-color: var(--accent);
+  }
+  .menu li {
+    background-color: var(--accent);
+  }
+  .menu a {
+    margin: 0;
+  }
+
   .main__inner img {
     width: 250px;
     height: 250px;
