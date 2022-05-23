@@ -24,6 +24,9 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+.port__ul {
+  flex-wrap: wrap;
+}
 
 .header__inner {
   position: relative;
